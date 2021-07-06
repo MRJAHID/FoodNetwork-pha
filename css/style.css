@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+/* Hero Section */
+.hero,
+.menu,
+.contact,
+.count,
+footer,
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+.about__text h2,
+.menu__text h2,
+.hero__text h2 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #575757;
+}
+.about__text p,
+.menu__text p,
+.hero__text p {
+    width: 75%;
+    color: #828282;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 0;
+}
+.hero__text h2 span {
+    color: #fba24f;
+}
+
+.about__img img,
+.hero__img img {
+    width: 500px;
+    height: auto;
+}
+
+/* Button */
+.button {
+    background: linear-gradient(to right, #f48e47, #ef4b37);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 23px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+.button:hover {
+    background: linear-gradient(to right, #ef4b37, #f48e47);
+}
+
+/* About Section */
+.about {
+    flex-direction: row-reverse;
+    background: url('../images/shapes/Frame\ 57.jpg');
+    background-size: contain;
+}
+
+.about.download {
+    flex-direction: row;
+    background: url('../images/shapes/Frame\ 58.jpg');
+    background-size: contain;
+}
+.about__img {
+    width: 50%;
+}
+.about__img img {
+    margin: 0 auto;
+}
+.about__text {
+    width: 50%;
+}
+.about.download .about__text {
+    padding-left: 50px;
+}
+.about__text h2 {
+    font-size: 36px;
+}
+.about__text p {
+    line-height: 28px;
+    margin-bottom: 70px;
+}
+
+/* About Section */
+.menu {
+    flex-direction: column;
+}
+.menu__text {
+    text-align: center;
+    width: 60%;
+}
+
+.menu__text h2 {
+    font-size: 26px;
+}
+.menu__text p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+}
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.menu__card {
+    width: 28%;
+    padding: 15px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+}
+.menu__card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.menu__card h3 {
+    font-size: 22px;
+    margin-bottom: 11px;
+    color: #212120;
+}
+.menu__card p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #5a5a50;
+    margin-bottom: 17px;
+}
+
+/* Count Section */
+
+.count__container {
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    border-radius: 23px;
+    width: 100%;
+}
+.count__card {
+    width: 33%;
+    text-align: center;
+    padding: 55px 40px;
+}
+
+.count__card h2 {
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+.count__card p {
+    color: rgb(58, 56, 56);
+    font-size: 15px;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: rgb(7, 11, 24);
+    color: white;
+}
+
+.footer__div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__div h2 {
+    margin-bottom: 30px;
+}
+
+.footer__text-1 {
+    background: linear-gradient(to right, #f48e47, #ef4b37);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 4px;
+}
+.footer__text-2 {
+    color: #5b5b5b;
+}
+
+/* Contact Section */
+.contact__text {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact__text p {
+    font-size: 18px;
+    margin-bottom: 24px;
+    line-height: 27px;
+    color: #54514d;
+}
+
+.contact__text span {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.contact__text h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #2b2c33;
+}
+
+.contact__text h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #3f4575;
+}
+
+.contact__text h2 {
+    font-size: 27px;
+    letter-spacing: 4px;
+    color: #1c1769;
+    margin-bottom: 26px;
+}
